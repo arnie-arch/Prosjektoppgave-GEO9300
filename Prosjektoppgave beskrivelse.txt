@@ -1,0 +1,53 @@
+To do: fredag 24. oktober
+? Opprettet git-hub
+? Laste ned data (Anne) 
+
+Del 1: Hydrologisk regime
+Hovedmål: Identifiser hydrologiske regime for et nedbørfelt og analyser om det er endringer i hydrologiske variabler over tid.
+
+Hydrologisk regime
+• Mengde: mengden vann i løpet av en gitt periode (vannføring)
+• Tidspunkt for ulike hendelser: f.eks. vårflom, sesongmessige lavvann.
+• Frekvens: flomfrekvens – hvor ofte spesifikke vannhendelser inntreffer.
+• Endringer: hvor rask vannstand/vannføring øker eller minker over en gitt periode.
+• Varigheter: hvor lenge høy- eller lavvannshendelser varer.
+
+Nedbørfelt
+Bulken ved Vosso. 
+Data på døgn. 
+
+Perioder
+Sammenligne to standard normalperioder
+? 1991 - 2020
+? 1961-1990
+
+Del 1: analyse
+A) Middelvannføring: Er den årlige middelvannføringen ulik mellom periodene?
+a) laste ned data
+b) se på data: finne NaN, hull etc. 
+c) dele opp i to grupper
+d) se på og plotte data
+i) normalfordeling / hvilken fordeling skal vi ha? 
+ii) statistikk: mean, var, std, min/maks-persentiler +++ , antall observasjoner,
+e) Hypotesetesting. 
+i) Har årlig middelvannføring (mean) endret seg mellom de to periodene? 
+ii) Har årlig variance. 
+iii) Sesong: 
+(1) årlig
+(2) mnd
+B) Flomfrekvensanalyse: 
+a) Finne returperioder: Finn Qm, Q5 og Q50. 
+b) exceedence probability
+c) Gumbel-log-pearson… 
+C) Tidspunkt for vårflom: 
+a) Finne alle flommer på våren: mars-juni, transformere dato til “dag i året”. Er dag på året i gruppe 1 = dag på året 2. 
+b) Har tidspunkt for vårflom endret seg mellom de to periodene? 
+D) Dry-spell
+a) finne tørkeperioder
+b) hva er lengste hydrologiske tørkeperiode/lavvann som har vært (dvs lav vannføring (vannføring under 10 persentiler?) minst 5 dager(?).
+c) hva 
+ 
+
+Del 2: Maskinlæring
+• Hvilke parametere gir hovedbidraget til vannføringen?
+• Kan vi estimere fremtidig vannføring?
