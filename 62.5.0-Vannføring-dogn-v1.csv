@@ -1,5 +1,5 @@
 ﻿#Bulken (Vangsvatnet), 62.5.0, Vannføring, dogn
-Tidspunkt;Vannføring (m³/s);Korrigert;Kontrollert
+Tidspunkt;Vannføring;Korrigert;Kontrollert
 1892-01-01 11:00:00Z;12,10079;0;3
 1892-01-02 11:00:00Z;11,24779;0;3
 1892-01-03 11:00:00Z;11,24779;0;3
