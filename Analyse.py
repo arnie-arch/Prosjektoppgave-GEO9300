@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-vf = pd.read_csv('62.5.0-Vannføring-dogn-v1.csv', delimiter=';', on_bad_lines='skip', skiprows=[0])
+vf = pd.read_csv('BulkenDognVerdier.csv', delimiter=';', on_bad_lines='skip', skiprows=[0])
 
 print(vf.head())
 
